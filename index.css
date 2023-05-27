@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+flex-wrap: wrap;
+height: 500px;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+.flex-item{
+    
+    height: 200px;
+    width: 200px;
+    
+    margin: 10px;
+}
+
+.expertise-header{
+    text-align: center;
+}
+.expertise-subheader {
+    text-align: center;
+}
