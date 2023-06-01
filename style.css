@@ -1,6 +1,161 @@
-ul {
-    list-style: none; /*убираем маркеры списка*/
-    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-    padding-left: 0; /*убираем левый отступ, равный 40px*/
-  }
-  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+.header{
+    background-image:url(images/bgk-header.png);
+    max-height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.header-line{
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    margin-right: 27px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+color: #00e0d0;
+}
+
+.header-logo {
+    display:flex;
+    float: left;
+    text-align: justify;
+    padding: 15px 0px;
+}
+
+.header-logo span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #00e0d0;
+    margin: 10% 10%;
+    font-size: 30px;
+
+}
+
+.header-logo img {
+    width: 44px;
+    height: 50px;
+}
+
+.header-down {
+display: flex; 
+justify-content: flex-start;
+flex-wrap: wrap;
+
+margin: 0;
+padding: 0;
+}
+
+.header-title {
+max-width: 980px;
+color: #fff;
+font-family: 'Playfair Display', serif;
+font-weight: 900;
+font-size: 32px;
+text-align: center;
+flex-wrap: wrap;
+flex-direction: column;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+margin-top: 75px;
+margin-left: 20%;
+margin-bottom: 20%;
+margin-right: 20%;
+}
+
+.header-subtitle {
+color: #fff;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+font-size: 14px;
+text-align: center;
+margin-top: 75px;
+width: 650px;
+line-height: 1.5;
+    
+}
+
+.cus-btn {
+border: 1px solid #00e0d0;
+color: #00e0d0;
+padding: 15px 15px;
+display: flex;
+margin-top: 25px;
+text-transform: uppercase;
+text-decoration: none;
+align-items: flex-end;
+font-family: 'Hammersmith One', sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin-top: 40px;
+
+}
+
+.history {
+background-color: #fff;
+height: 400px;
+max-width: 980px;
+margin: 100px auto;
+}
+
+.history-title p {
+font-family: 'Playfair Display', serif;
+font-weight: 900;
+font-size: 32px;
+color: #413d4b;
+padding-top:70px;
+}
+
+.history-description p {
+width: 537px;
+height: 160px;
+font-family: 'Roboto', sans-serif;
+font-weight: 100;
+font-size: 14px;
+color:#413d4b;
+} 
+
+.history-holder{
+display: flex;
+}
+
+.history-images{ 
+padding-top: 70px;
+padding-right: 100px;
+}
+
+.video-block{
+background-image: url(images/bgk-middle.png);
+max-height: 550px;
+background-repeat: no-repeat;
+background-size: cover;
+fofont-family: 'Roboto', sans-serif;
+font-weight: 100;
+}
